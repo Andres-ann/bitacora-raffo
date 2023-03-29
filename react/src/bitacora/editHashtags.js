@@ -6,7 +6,7 @@ import Footer from './footer';
 //Icons
 import { Check2Circle, XCircle } from 'react-bootstrap-icons';
 
-const URI = 'https://bitacora-up-api.onrender.com/hashtags/';
+const URI = 'https://bitacora-raffo-api.onrender.com/hashtags/';
 
 const EditHashtagComponent = () => {
 	const [hashtag, setHashtag] = useState('');

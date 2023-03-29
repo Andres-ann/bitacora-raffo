@@ -8,7 +8,7 @@ import axios from 'axios';
 //Icons
 import { XLg, PatchCheckFill, Twitter, HeartFill, Share } from 'react-bootstrap-icons';
 
-const URI = 'https://bitacora-up-api.onrender.com/frases/';
+const URI = 'https://bitacora-raffo-api.onrender.com/frases/';
 
 const ViewFraseComponent = () => {
 	const [frase, setFrase] = useState('');

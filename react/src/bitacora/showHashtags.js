@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const URI = 'https://bitacora-up-api.onrender.com/hashtags/';
+const URI = 'https://bitacora-raffo-api.onrender.com/hashtags/';
 
 const ShowHashtagComponent = () => {
 	const [hashtags, setHashtags] = useState([]);
